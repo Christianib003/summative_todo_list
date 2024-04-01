@@ -11,7 +11,6 @@ A simple todo list application implemented using HTML, CSS, and JavaScript. This
   - [Getting Started](#getting-started)
     - [With no Containerization](#with-no-containerization)
     - [With Containerization](#with-containerization)
-      - [Prerequisites](#prerequisites-1)
   - [Usage](#usage)
   - [Issues](#issues)
 
@@ -48,7 +47,7 @@ To get started with the todo list application, follow these steps:
 3. Open the `index.html` file in your preferred web browser.
 
 ### With Containerization
-#### Prerequisites
+**Prerequisites**
 - Docker
 
 To run the todo list application Docker image on your local machine, you can follow these steps:
