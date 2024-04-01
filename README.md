@@ -12,6 +12,7 @@ A simple todo list application implemented using HTML, CSS, and JavaScript. This
     - [With no Containerization](#with-no-containerization)
     - [With Containerization](#with-containerization)
   - [Usage](#usage)
+  - [Assumptions](#assumptions)
   - [Issues](#issues)
 
 ## Features
@@ -72,6 +73,9 @@ To run the todo list application Docker image on your local machine, you can fol
 - To `delete a todo`, click on the trash icon of the corresponding todo.
 - To `clear all todos`, click the "Clear All" button.
 - To `clear completed todos`, click the "Clear Completed" button.
+
+## Assumptions
+- A docker image should function the same way regardless of the environment, therefore the image hosted on DockerHub should function the same way regardless of the host.
 
 ## Issues
 
