@@ -9,6 +9,9 @@ A simple todo list application implemented using HTML, CSS, and JavaScript. This
   - [Features](#features)
   - [Prerequisites](#prerequisites)
   - [Getting Started](#getting-started)
+    - [With no Containerization](#with-no-containerization)
+    - [With Containerization](#with-containerization)
+      - [Prerequisites](#prerequisites-1)
   - [Usage](#usage)
   - [Issues](#issues)
 
@@ -28,6 +31,7 @@ Before you begin, ensure you have met the following requirements:
 - Web browser
 
 ## Getting Started
+### With no Containerization
 
 To get started with the todo list application, follow these steps:
 
@@ -42,6 +46,24 @@ To get started with the todo list application, follow these steps:
   ```
 
 3. Open the `index.html` file in your preferred web browser.
+
+### With Containerization
+#### Prerequisites
+- Docker
+
+To run the todo list application Docker image on your local machine, you can follow these steps:
+
+1. **Pull the Docker Image**: Open a terminal or command prompt and run the following command to pull the Docker image from Docker Hub:
+
+   ```bash
+   docker pull christianib003/summative_todo_list:latest
+   ```
+2. **Run the Docker Container**
+
+   ```bash
+   docker run -d -p 8080:80 --name todo-list-container christianib003/summative_todo_list:latest
+   ```
+3. **Access the Todo List Application**: Open a web browser and navigate to `http://localhost:8080` to access the todo list application running inside the Docker container.
 
 ## Usage
 
